@@ -4,7 +4,7 @@ USE PRACTICA;
 DROP TABLE IF EXISTS cliente;
 CREATE TABLE cliente
  (id                         VARCHAR(3)  NOT NULL,
-  nombre                       VARCHAR(30) NOT NULL,
+  nombre                       VARCHAR(40) NOT NULL,
   telefono                      VARCHAR(20) NOT NULL,
   direccion                    VARCHAR(20),
   ciudad                       VARCHAR(20),
@@ -77,3 +77,4 @@ INSERT INTO cliente VALUES ('215', 'Sports Russia', '7-0953892444','7070 Yekatam
 'Saint Petersburg', NULL, 'Russia', NULL,'MALO', '11', '5', NULL);
 
 COMMIT;
+
